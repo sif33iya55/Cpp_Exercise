@@ -23,14 +23,14 @@ public:
 };
 
 int main() {
-    Student student1("John Doe", 18, 85.5);
-    Student student2("Jane Smith", 19, 90.0);
+    Student student1("Koket Iyasu", 10, 85.5);
+    Student student2("Fenet Iyasu", 13, 98.3);
 
-    cout << "Student 1 Information:" << endl;
+    cout << "Student 1:" << endl;
     student1.displayInformation();
     cout << endl;
 
-    cout << "Student 2 Information:" << endl;
+    cout << "Student 2:" << endl;
     student2.displayInformation();
     cout << endl;
 
