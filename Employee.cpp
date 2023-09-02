@@ -21,17 +21,17 @@ public:
     void displayInformation() {
         cout << "Name: " << name << endl;
         cout << "ID Number: " << IDnumber << endl;
-        cout << "Hourly Wage: $" << hourlyWage << endl;
+        cout << "Hourly Wage: " << hourlyWage <<" birr"<< endl;
     }
 };
 
 int main() {
-    Employee employee("John Doe", 12345, 15.0);
+    Employee employee("Eyerusalem Duressa", 13025, 150.0);
     employee.displayInformation();
 
-    double hoursWorked = 40.0;
+    double hoursWorked = 35.0;
     double weeklySalary = employee.calculateWeeklySalary(hoursWorked);
-    cout << "Weekly Salary: $" << weeklySalary << endl;
+    cout << "Weekly Salary: " << weeklySalary << " birr"<<endl;
 
     return 0;
 }
