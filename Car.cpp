@@ -22,7 +22,7 @@ public:
     }
 
     int calculateAge() {
-        int currentYear = 2022;
+        int currentYear = 2023;
 
         return currentYear - year;
     }
@@ -30,7 +30,7 @@ public:
 
 int main() {
     Car car;
-    car.setInformation("Toyota", "Camry", 2015);
+    car.setInformation("Honda", "Civic", 2020);
     car.displayInformation();
     int carAge = car.calculateAge();
     cout << "Car Age: " << carAge << " years" << endl;
